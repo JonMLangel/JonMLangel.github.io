@@ -75,7 +75,16 @@ hr.star-primary:after {
 header {
 	text-align: center;
 	background: @theme-success;
-	color: white;
+	color: blue;
+  .intro {
+    height: auto;
+    text-align: center;
+    background-image: url(../mountain-background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
 	.container {
 		padding-top: 100px;
 		padding-bottom: 50px;
@@ -178,7 +187,7 @@ header {
 
 @media(min-width:768px) {
     .navbar-custom {
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
