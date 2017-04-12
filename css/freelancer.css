@@ -93,6 +93,9 @@ header .intro-text .name {
   font-weight: 700;
   font-size: 1em;
 }
+span .name, .skills{
+  color: #fff; 
+}
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
